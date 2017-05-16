@@ -1,0 +1,115 @@
+/* body setting*/
+body{
+  background-color: #b3d3d3;
+  font-family: "Lato", sans-serif;
+  color: #3f6266;
+  }
+
+/*header text setting*/
+.title-logo{
+  margin-top:15px;
+  max-width: 150px;
+  display: inline-block;
+}
+.title-col-left{
+  width:20%;
+  display:inline-block;
+}
+  .title-col-right{
+    float: right;
+    width: 70%;
+    display:inline-block;
+  }
+.super-title{
+  display:inline-block;
+  font-size : 2.5em;
+  font-weight:bold;
+  padding-top: 30px;
+  margin-bottom: 10px;
+  color: #0ba5a8;
+}
+.lower-title{
+  display:inline-block;
+  font-size : 1.5em;
+  font-weight:bold;
+  padding-bottom: 10px;
+  color: #0ba5a8;
+}
+/* carousel setting*/
+.row {
+  margin: auto;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.list-box-size{
+  height: 400px;
+  display: box;
+               }
+
+.item img{
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    box-align: middle;
+      }
+
+/* list of projects*/
+.project-title,
+.project-detail
+ {
+  text-align:center;
+  width:100%;
+  height:100%;
+}
+
+article{
+    display:block-cell;
+    vertical-align:middle;
+    }
+.article-structure img{
+       width: 100%;
+       }
+.video-article{
+  width: 100%;
+}
+
+/*footer setting*/
+footer{
+  position: absolute;
+  bottom: 0;
+  }
+.foot-content{
+  padding-right:10px;
+}
+
+/* screen transfer to a smaller phone*/
+@media screen and (max-width: 640px){
+  /*header text setting*/
+
+  .title-logo{
+    margin-top: 20px;
+    width: 100%;
+              }
+
+
+  .super-title{
+    font-size : 1em;
+    font-weight:bold;
+    padding-top: 5px;
+    padding-bottom: 0;
+    color: #0ba5a8;
+}
+  .lower-title{
+    font-size : 0.5em;
+    font-weight:bold;
+    margin-top: 0;
+    color: #0ba5a8;
+  }
+
+/* change on carousel height*/
+  .list-box-size{
+    height: 100%;
+    display: box;
+               }
+}
